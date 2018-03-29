@@ -1,0 +1,107 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: #e8eef9;
+	font-size: 15px;
+}
+.vertical_line{
+	height: 5px;
+	width: 1200px;
+	background: #003a99;
+}
+.body_alignment{
+	width: 1200px;
+	margin: auto;
+}
+#site_title{
+	height: 24px;
+	padding: 20px 15px;
+	font-size: 26px;
+	font-weight: bold;
+	box-shadow: 0 0 10px 5px #003a99;
+	background-color: #1b1242;
+}
+#site_title a{
+	color:#e8eef9;
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+ul li{
+	display: inline-block;
+	padding: 20px 10px 20px;
+	font-size: 18px;
+}
+ul li a{
+	color:#003a99;
+	text-decoration: none;
+	font-weight: bold;
+}
+.header_li:hover{
+	background-color: #003a99;
+}
+.header_li:hover a{
+	color: #FFFFFF;
+}
+.search_pic{
+	width: 40px;
+	height: 40px;
+	margin-left: 150px;
+	padding: 11px;
+	float: right;
+	background: url(../images/job_search.jpg) no-repeat center / cover;
+}
+#header_list{
+	display: inline-block;
+}
+.body_part{
+	width: 1200px;
+	height: 550px;
+	background: url(../images/time_work_pic.jpg) no-repeat center / cover;
+}
+.white_part{
+	width: 1180px;
+	height: 530px;
+	padding-top: 20px;
+	padding-right: 20px;
+	background: rgba(255,255,255,0.7);
+}
+#text_part{
+	margin: 15px 120px;
+	font-size: 20px;
+}
+.bold_text{
+	font-weight: bold;
+}
+.blue_text{
+	color: #003a99;
+}
+#text_part:nth-child(4){
+	margin-top: 25px;
+}
+.flex_container{
+	width: 400px;
+}
+.flex_container_part{
+	background-color: rgb(255,255,255);
+	height: 30px;
+	box-shadow: 0 0 5px 5px #003a99;
+	margin-top: 40px;
+	font-size: 18px;
+}
+.flex_container_part:nth-child(2n){
+	margin-left: 40px;
+}
+#drop-downList{
+	display: none;
+}
+.header_li:nth-child(3):hover #drop-downList{
+	display: block;
+	position: absolute;
+	background-color: #1b1242;
+	height: 60px;
+	width: 734px;
+}
